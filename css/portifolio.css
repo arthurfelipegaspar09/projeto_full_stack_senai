@@ -1,0 +1,280 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #083A4F;
+    color: #E5E1DD;
+    height: 220px;
+    padding: 0 14%;
+    align-items: center;
+}
+
+/* TÍTULO DO HEADER */
+header h1 {
+    color: #E5E1DD;
+}
+
+/* TEXTOS DO HEADER */
+header p {
+    color: #c89b3c;
+}
+
+header a {
+    color: #E5E1DD;
+}
+    
+
+  
+  
+ 
+  
+
+
+
+
+
+.linha-dourada {
+    position: relative;
+}
+
+
+.linha-dourada::after {
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: -25px;
+    width: 100%;
+    height: 1px;
+    background-color: #c89b3c;
+    z-index: 1;
+
+}
+
+
+/* ÁREA DOS PROJETOS */
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    background-color: #E5E1DD;
+}
+
+/* CARD */
+.projeto-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #dfe4e4;
+    color: #0b4054;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(11, 64, 84, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projeto-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(11, 64, 84, 0.18);
+}
+
+/* IMAGEM */
+.projeto-card > img {
+    display: block;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+/* CONTEÚDO */
+.projeto-conteudo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+/* TOPO */
+.projeto-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ÍCONE */
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    background-color: #4c8ca0;
+    color: white;
+    border-radius: 4px;
+    font-size: 9px;
+}
+
+/* ANO */
+.ano {
+    color: #7894a0;
+    font-size: 9px;
+}
+
+/* CATEGORIA */
+.categoria {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #b08b55;
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+/* TÍTULO */
+.projeto-card h2 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+/* DESCRIÇÃO */
+.descricao {
+    margin-top: 8px;
+    color: #668492;
+    font-size: 9px;
+    line-height: 1.5;
+}
+
+/* TECNOLOGIAS */
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 12px;
+}
+
+.tecnologias span {
+    padding: 4px 7px;
+    border: 1px solid #9bb5bd;
+    border-radius: 4px;
+    color: #528095;
+    font-size: 8px;
+}
+
+/* FINAL */
+.projeto-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 14px;
+}
+
+/* EMPRESA */
+.empresa {
+    color: #8ba2aa;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+/* LINK */
+.projeto-final a {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #8ba2aa;
+    color: #0b4054;
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+
+
+/* RODAPÉ */
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0b4054;
+    color: #dfe4e4;
+    padding: 20px 40px;
+}
+
+.footer-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(223, 228, 228, 0.15);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+.footer-logo img {
+    height: 18px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #dfe4e4;
+    text-decoration: none;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    color: #4c8ca0;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social a {
+    color: #8ba2aa;
+    text-decoration: none;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.footer-social a:hover {
+    color: #dfe4e4;
+}
+
+.footer-base {
+    padding-top: 10px;
+    color: #7894a0;
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+
