@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "nome": "crunchroll",
+        "categoria": "streaming de animes",
+        "ano": "2026",
+        "descricao": "Exibe animes rapidamente",
+        "tecnologias": [
+            "HTML",
+            "CSS E JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa15cfa8be0b.png",
+        "link": "https:\/\/www.crunchyroll.com\/pt-br?utm_source=google&utm_medium=paid_cr&utm_campaign=CR_SV_LATA_BRA_PT_FTD_SEM_SEB_WEB_TRADEMARK-DESKTOP&utm_term=crunchyroll&referrer=google_paid_cr_CR_SV_LATA_BRA_PT_FTD_SEM_SEB_WEB_TRADEMARK-DESKTOP&gad_source=1&gad_campaignid=23633726047&gbraid=0AAAAADmLVRYb0qDh2ODWWlinpqHqvNeCL&gclid=Cj0KCQjwh4TVBhCWARIsAG0czmrrRMQIizWb03Hlb1kPr5atQNbfdYzvvEjCk3bTycXdgi6HUQAOZl0aAt-SEALw_wcB"
+    },
+    {
+        "id": 2,
+        "nome": "crunchroll",
+        "categoria": "streaming de animes",
+        "ano": "2026",
+        "descricao": "Exibe animes rapidamente",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa15d3ea7e14.png",
+        "link": "https:\/\/www.crunchyroll.com\/pt-br?utm_source=google&utm_medium=paid_cr&utm_campaign=CR_SV_LATA_BRA_PT_FTD_SEM_SEB_WEB_TRADEMARK-DESKTOP&utm_term=crunchyroll&referrer=google_paid_cr_CR_SV_LATA_BRA_PT_FTD_SEM_SEB_WEB_TRADEMARK-DESKTOP&gad_source=1&gad_campaignid=23633726047&gbraid=0AAAAADmLVRYb0qDh2ODWWlinpqHqvNeCL&gclid=Cj0KCQjwh4TVBhCWARIsAG0czmrrRMQIizWb03Hlb1kPr5atQNbfdYzvvEjCk3bTycXdgi6HUQAOZl0aAt-SEALw_wcB"
+    },
+    {
+        "id": 3,
+        "nome": "senac",
+        "categoria": "escola",
+        "ano": "2026",
+        "descricao": "escola de cursos tecnicos",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa160aa74e6f.jpg",
+        "link": "https:\/\/www.sp.senac.br\/"
+    }
+]

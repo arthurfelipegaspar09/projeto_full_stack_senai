@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
 }
 
 
-/* BODY */
 body {
     font-family: Arial, sans-serif;
 }
@@ -20,12 +19,10 @@ header {
     align-items: center;
 }
 
-/* TÍTULO DO HEADER */
 header h1 {
     color: #E5E1DD;
 }
 
-/* TEXTOS DO HEADER */
 header p {
     color: #c89b3c;
 }
@@ -62,7 +59,6 @@ header a {
 }
 
 
-/* ÁREA DOS PROJETOS */
 .projetos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -73,7 +69,6 @@ header a {
     background-color: #E5E1DD;
 }
 
-/* CARD */
 .projeto-card {
     display: flex;
     flex-direction: column;
@@ -91,7 +86,6 @@ header a {
     box-shadow: 0 10px 24px rgba(11, 64, 84, 0.18);
 }
 
-/* IMAGEM */
 .projeto-card > img {
     display: block;
     width: 100%;
@@ -99,7 +93,6 @@ header a {
     object-fit: cover;
 }
 
-/* CONTEÚDO */
 .projeto-conteudo {
     display: flex;
     flex-direction: column;
@@ -107,14 +100,12 @@ header a {
     padding: 20px;
 }
 
-/* TOPO */
 .projeto-topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* ÍCONE */
 .icone {
     display: flex;
     align-items: center;
@@ -127,13 +118,11 @@ header a {
     font-size: 9px;
 }
 
-/* ANO */
 .ano {
     color: #7894a0;
     font-size: 9px;
 }
 
-/* CATEGORIA */
 .categoria {
     margin-top: 12px;
     margin-bottom: 5px;
@@ -142,14 +131,13 @@ header a {
     letter-spacing: 2px;
 }
 
-/* TÍTULO */
+
 .projeto-card h2 {
     margin: 0;
     font-family: Georgia, serif;
     font-size: 16px;
 }
 
-/* DESCRIÇÃO */
 .descricao {
     margin-top: 8px;
     color: #668492;
@@ -157,7 +145,6 @@ header a {
     line-height: 1.5;
 }
 
-/* TECNOLOGIAS */
 .tecnologias {
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +160,6 @@ header a {
     font-size: 8px;
 }
 
-/* FINAL */
 .projeto-final {
     display: flex;
     justify-content: space-between;
@@ -182,14 +168,12 @@ header a {
     padding-top: 14px;
 }
 
-/* EMPRESA */
 .empresa {
     color: #8ba2aa;
     font-size: 8px;
     letter-spacing: 1px;
 }
 
-/* LINK */
 .projeto-final a {
     padding-bottom: 3px;
     border-bottom: 1px solid #8ba2aa;
@@ -201,7 +185,6 @@ header a {
 
 
 
-/* RODAPÉ */
 .footer {
     width: 100%;
     box-sizing: border-box;

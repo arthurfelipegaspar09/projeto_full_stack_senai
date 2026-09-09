@@ -118,11 +118,11 @@
 }
 
 .navbar-links a:hover {
-    color: #ffcc29;
+    color: whitesmoke ;
 
     background: rgba(0, 156, 59, 0.15);
 
     text-shadow:
-        0 0 8px rgba(255, 204, 41, 0.55);
+        0 0 8px whitesmoke;
 }
 
