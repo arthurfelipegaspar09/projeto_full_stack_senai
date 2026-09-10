@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome": "tutu",
+        "sobrenome": "ar",
+        "email": "tutu@gmail.com",
+        "telefone": "31231232131",
+        "senha": "$2y$10$.ADGNRMI5t\/LUbanOCN0hea7NKawbsVcyh2QNwCY15ImMnFF3.x0W"
+    },
+    {
+        "id": 2,
+        "nome": "asdsadas",
+        "sobrenome": "sadasdsa",
+        "email": "art@gmail.com",
+        "telefone": "3213132132",
+        "senha": "$2y$10$kNsvot0gaF4j30uiO2drr.C9ZG4Yn0x.yTqZkOvrjUNrLR1pnBqlq"
+    },
+    {
+        "id": 3,
+        "nome": "wiliam",
+        "sobrenome": "34423423",
+        "email": "wiliam@gmail.com",
+        "telefone": "423423423423423",
+        "senha": "$2y$10$NgWDRRS59w.WnHxlAFBwsu7BdQBbZ93yg1C12HAlasJ.eRAfgb8na"
+    }
+]

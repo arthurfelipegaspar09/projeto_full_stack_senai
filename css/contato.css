@@ -1,0 +1,248 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec-1 {
+    background-color: #083a4f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20%;
+}
+
+.countainer-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.titulo-inicial {
+    color: #A58D66;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.qr1, .qr2 {
+    color: #E5E1DD;
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.qr1 {
+    display: block;
+}
+
+.qr3, .qr4 {
+    color: #A3B8C2;
+    font-size: 16px;
+    margin-top: 15px;
+    opacity: 1;
+}
+
+.qr3 {
+    display: block;
+}
+
+.sec-2 {
+    background-color: #E5E1DD;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 18%;
+    min-height: auto;
+}
+
+.esquerdo {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc1 {
+    color: #5C6B73;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card-item {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid #C8C2BC;
+    padding: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card-item:hover {
+    border-color: #083A4F;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card-item h3 {
+    color: #083A4F;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.card-item p {
+    color: #6B7A82;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.botao a {
+    display: block;
+    background-color: #A1B1B6;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.botao a:hover {
+    background-color: #083A4F;
+}
+
+/* LADO DIREITO */
+.direito {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.direito h2 {
+    font-size: 34px;
+    color: #083A4F;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.canal-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #D2CCC6;
+}
+
+.canal-item .icon {
+    color: #8C7B6B;
+    font-size: 14px;
+}
+
+.canal-label {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #7A8991;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.canal-valor {
+    font-size: 14px;
+    color: #083A4F;
+    font-weight: 500;
+    opacity: 2;
+}
+
+/* Cards escuro e claro da direita */
+.card1 {
+    background-color: #083A4F;
+    color: #FFFFFF;
+    padding: 25px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.card-label {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #A58D66;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card1 h3 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-size: 13px;
+    color: #A3B8C2;
+    line-height: 1.5;
+}
+
+.card2 {
+    border: 1px solid #C8C2BC;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.card2 p {
+    font-size: 14px;
+    color: #5C6B73;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #C0D5D6;
+    padding: 35px;
+}
+
+.itens-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-footer .logo {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 15px;
+    color: #083A4F;
+    font-weight: 600;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&display=swap');
+
+h1, h2, .titulo-principal {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+body, p, button, a {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.rotulo-superior, .btn-portfolio {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
