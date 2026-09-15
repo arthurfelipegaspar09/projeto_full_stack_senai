@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "nome": "Claude code",
+        "categoria": "Inteligência Artificial",
+        "ano": "2025",
+        "descricao": "Ferramenta de programação com inteligência artificial da Anthropic que auxilia desenvolvedores na criação, edição, análise e execução de código diretamente pelo terminal.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3ee6925113.webp",
+        "link": "https:\/\/claude.ai\/code"
+    },
+    {
+        "id": 2,
+        "nome": "Duolingo",
+        "categoria": "Educaçao",
+        "ano": "2011",
+        "descricao": "Plataforma de aprendizado de idiomas que utiliza exercícios interativos e gamificação para ajudar usuários a aprender novas línguas.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3eeb4319e8.jpg",
+        "link": "https:\/\/www.duolingo.com\/"
+    },
+    {
+        "id": 3,
+        "nome": "Netflix",
+        "categoria": "Streaming",
+        "ano": "2007",
+        "descricao": "Plataforma de streaming que oferece filmes, séries, documentários e produções originais para seus usuários.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3eeea351b5.jpeg",
+        "link": "https:\/\/www.netflix.com\/"
+    },
+    {
+        "id": 4,
+        "nome": "Git Hub",
+        "categoria": "Desenvolvimento",
+        "ano": "2008",
+        "descricao": "Plataforma de hospedagem e colaboração em projetos de software que utiliza Git para controle de versão e permite que desenvolvedores trabalhem em equipe.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3ef2a5b93b.jpg",
+        "link": "https:\/\/github.com\/"
+    },
+    {
+        "id": 5,
+        "nome": "Google",
+        "categoria": "Tecnologia",
+        "ano": "1998",
+        "descricao": "Empresa de tecnologia conhecida principalmente por seu mecanismo de busca, além de oferecer diversos produtos e serviços digitais.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3ef62999b0.webp",
+        "link": "https:\/\/www.google.com\/"
+    },
+    {
+        "id": 6,
+        "nome": "Amazon",
+        "categoria": "E-commerc",
+        "ano": "1994",
+        "descricao": "Uma das maiores plataformas de comércio eletrônico do mundo, oferecendo produtos, serviços digitais e soluções de computação em nuvem.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3efa033a1d.avif",
+        "link": "https:\/\/www.amazon.com\/"
+    },
+    {
+        "id": 7,
+        "nome": "Spotify",
+        "categoria": "Streaming de Musicas",
+        "ano": "2008",
+        "descricao": "Plataforma de streaming de áudio que permite aos usuários ouvir músicas, podcasts e outros conteúdos, além de criar playlists personalizadas.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3efda6b270.jpg",
+        "link": "https:\/\/www.spotify.com\/"
+    },
+    {
+        "id": 8,
+        "nome": "Instagram",
+        "categoria": "Rede Social",
+        "ano": "2010",
+        "descricao": "Plataforma de streaming de áudio que permite aos usuários ouvir músicas, podcasts e outros conteúdos, além de criar playlists personalizadas.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "imagem": "projeto_6aa3f00e3b4e5.jpg",
+        "link": "https:\/\/www.instagram.com\/"
+    }
+ 
+]

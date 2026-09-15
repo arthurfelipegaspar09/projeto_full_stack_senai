@@ -1,0 +1,358 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec-1, .sec-2, .sec-3, .sec-4, .sec-5, footer {
+    padding: 60px;
+}
+
+.sec-1 {
+    background-color: #083a4f;
+    background-image: 
+        linear-gradient(to right, #083a4f 0%, #083a4f 35%, transparent 65%),
+        url('../imagens/fundo-1.jpg');
+        
+    background-position: left top, 90% center; 
+    
+    background-size: 100% 100%, 800px;
+    
+    background-repeat: no-repeat;
+    background-blend-mode: normal, screen;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    padding: 0 15%;
+}
+
+.qr1{
+    color: #E5E1DD;
+    font-size: 55px;
+    display: block;
+}
+
+.qr2{
+    color: #E5E1DD;
+    font-size: 65px;
+}
+
+.qr3{
+    color: #A58D66;
+    font-size: 65px;
+}
+
+.qr4{
+    color: #A58D66;
+    font-size: 65px;
+    display: block;
+}
+
+.qr5{
+    color: #A58D66;
+    font-size: 65px;
+    display: block;
+}
+
+.titulo-inicial{
+    color: #A58D66;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.qr6{
+    color: #E5E1DD;
+    font-size: 20px;
+    display: block;
+    opacity: 1;
+}
+
+.qr7{
+    color: #E5E1DD;
+    font-size: 20px;
+    display: block;
+    opacity: 1;
+}
+
+.qr8{
+    color: #E5E1DD;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.sub-1{
+    color: #E5E1DD;
+    font-size: 17px;
+}
+
+.link{
+    display: inline-block;
+    background-color: #A58D66;
+    color: #083a4f;
+    text-decoration: none;
+    padding: 14px 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.85;
+}
+
+.sec-2{
+    background-color: #407E8C;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 130px;
+    padding: 40px 10%;
+    color: #E5E1DD;
+}
+
+.sec-2 h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.sec-2 p {
+    font-size: 15px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sec-3 {
+    background-color: #E5E1DD;
+    padding: 80px 5%;
+}
+
+.servicos-wrapper {
+    display: flex;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.countainer-6 {
+    flex: 1;
+    padding: 0;
+}
+
+.img-servicos-destaque {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cards-grid {
+    flex: 1.2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 0;
+}
+
+.card-item {
+    background-color: #c0d5d6ab;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.countainer-6 p{
+    font-size: 15px;
+    color: #A58D66;
+    text-transform: uppercase;
+    opacity: 0.85;
+}
+
+.qr9{
+    display: block;
+    color: #083A4F;
+    font-size: 38px;
+}
+
+.qr10{
+    color: #083A4F;
+    font-size: 38px;
+}
+
+.card-item:nth-child(odd) {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.card-item:nth-child(1),
+.card-item:nth-child(2) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.card-item .icon {
+    display: block;
+    font-size: 18px;
+    color: #083a4f;
+    margin-bottom: 16px;
+}
+
+.card-item h3 {
+    font-size: 22px;
+    color: #083a4f;
+}
+
+.card-item p {
+    font-size: 14px;
+    color: #555;
+    opacity: 1;
+}
+
+.sec-4{
+    background-color: #C0D5D6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countainer-10{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.des2{
+    color: #083A4F;
+    opacity: 1;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 9px;
+}
+
+.qr11{
+    color: #083A4F;
+    font-size: 35px;
+    display: block;
+    padding: 9px;
+}
+
+.qr12{
+    color: #083A4F;
+    font-size: 35px;
+    padding: 9px;
+}
+
+.qr13{
+    display: block;
+    color: #083A4F;
+    font-size: 17px;
+    padding: 9px;
+}
+
+.qr14{
+    color: #083A4F;
+    font-size: 17px;
+    padding: 9px;
+}
+
+.lista-inicio {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: right;
+    opacity: 1;
+}
+
+.lista-inicio li {
+    color: #083A4F;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.lista-inicio li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #A58D66;
+    display: inline-block;
+}
+
+
+.sec-5 {
+    background-color: #083A4F;
+    /* Ajuste o valor '0.80' para deixar a imagem mais visível (ex: 0.65) ou mais discreta (ex: 0.85) */
+    background-image: 
+        linear-gradient(rgba(8, 58, 79, 0.80), rgba(8, 58, 79, 0.80)),
+        url('../imagens/fundo-3.jpg'); /* Altere para o nome da nova imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 5%;
+}
+.des3{
+    color: #A58D66;
+    opacity: 1;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.qr15{
+    color: #E5E1DD;
+    display: block;
+    font-size: 35px;
+}
+
+.qr16{
+    color: #E5E1DD;
+    font-size: 35px;
+}
+
+.des4{
+    color: #E5E1DD;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.footer {
+    background-color: #C0D5D6;
+    padding: 35px;
+}
+
+.itens-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-footer .logo {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 15px;
+    color: #083A4F;
+    font-weight: 600;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&display=swap');
+
+h1, h2, .titulo-principal {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+body, p, button, a {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.rotulo-superior, .btn-portfolio {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}

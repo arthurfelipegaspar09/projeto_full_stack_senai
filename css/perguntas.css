@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex; /* mesmo ajuste da outra página: sem isso align-items não funciona */
+    align-items: center;
+    background-color: #083A4F;
+    color: #E5E1DD;
+    height: 220px;
+    padding: 0 14%;
+}
+
+header h1 {
+    color: #E5E1DD;
+}
+
+header p {
+    color: #c89b3c;
+}
+
+header a {
+    color: #E5E1DD;
+}
+
+.linha-dourada {
+    position: relative;
+}
+
+.linha-dourada::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    height: 1px;
+    background-color: #c89b3c;
+    z-index: 1;
+}
+
+.faq {
+    width: 100%;
+    box-sizing: border-box;
+    background: #E5E1DD;
+    color: #0b4054;
+    padding: 60px 80px 50px;
+}
+
+.faq-conteudo {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.faq-grupo {
+    margin-bottom: 40px;
+}
+
+.eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #b08b55;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.eyebrow::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #c9c2b8;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-list details {
+    border-bottom: 1px solid #c9c2b8;
+    padding: 26px 0;
+}
+
+.faq-list details:first-child {
+    border-top: 1px solid #c9c2b8;
+}
+
+.faq-list summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0b4054;
+
+    list-style: none;
+}
+
+.faq-list summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-icon {
+    flex-shrink: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: #b08b55;
+
+    transition: transform 0.3s ease;
+}
+
+.faq-list details[open] .faq-icon {
+    transform: rotate(45deg);
+}
+
+.faq-resposta {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease;
+}
+
+.faq-list details[open] .faq-resposta {
+    grid-template-rows: 1fr;
+}
+
+.faq-resposta p {
+    overflow: hidden;
+    margin: 0;
+    padding-top: 14px;
+
+    font-size: 14px;
+    line-height: 1.6;
+    color: #668492;
+
+    max-width: 70ch;
+}
+
+.contato {
+    min-height: 390px;
+
+    text-align: center;
+
+    padding-top: 78px;
+
+    /* FUNDO DA IMAGEM */
+    background-color: #C0D5D6;
+}
+
+.subtitulo {
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #43829a;
+
+    margin-bottom: 17px;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 28px;
+    font-weight: 600;
+
+    color: #06384e;
+
+    margin-bottom: 17px;
+}
+
+.descricao {
+    color: #59869a;
+
+    font-size: 14px;
+    line-height: 23px;
+
+    margin-bottom: 33px;
+}
+
+.botao {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 261px;
+    height: 48px;
+
+    background-color: #073e55;
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #0b526d;
+}
+
+.logo {
+    font-family: Georgia, serif;
+
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.copyright {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.ajuda {
+    position: fixed;
+
+    right: 7px;
+    bottom: 11px;
+
+    width: 34px;
+    height: 34px;
+
+    background-color: #ffffff;
+    color: #333;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   RODAPÉ (mesmo estilo usado nas outras páginas do site)
+========================= */
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0b4054;
+    color: #dfe4e4;
+    padding: 20px 40px;
+}
+
+.footer-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(223, 228, 228, 0.15);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+.footer-logo img {
+    height: 18px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #dfe4e4;
+    text-decoration: none;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    color: #4c8ca0;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.footer-social a:hover img {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.footer-base {
+    padding-top: 10px;
+    color: #7894a0;
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+}
