@@ -4,23 +4,38 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 body {
     font-family: Arial, sans-serif;
 }
 
 header {
+<<<<<<< HEAD
     display: flex; /* mesmo ajuste da outra página: sem isso align-items não funciona */
     align-items: center;
+=======
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
     background-color: #083A4F;
     color: #E5E1DD;
     height: 220px;
     padding: 0 14%;
+<<<<<<< HEAD
+=======
+    align-items: center;
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 }
 
 header h1 {
     color: #E5E1DD;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 header p {
     color: #c89b3c;
 }
@@ -49,7 +64,11 @@ header a {
     box-sizing: border-box;
     background: #E5E1DD;
     color: #0b4054;
+<<<<<<< HEAD
     padding: 60px 80px 50px;
+=======
+    padding: 60px 80px 90px;
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 }
 
 .faq-conteudo {
@@ -127,6 +146,10 @@ header a {
     transform: rotate(45deg);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 .faq-resposta {
     display: grid;
     grid-template-rows: 0fr;
@@ -149,6 +172,11 @@ header a {
     max-width: 70ch;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 .contato {
     min-height: 390px;
 
@@ -168,6 +196,10 @@ header a {
     margin-bottom: 17px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 h1 {
     font-family: Georgia, "Times New Roman", serif;
 
@@ -213,6 +245,26 @@ h1 {
     background-color: #0b526d;
 }
 
+<<<<<<< HEAD
+=======
+
+
+footer {
+    height: 73px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 220px;
+
+    background-color: #C0D5D6;
+
+    color: #6490a0;
+}
+
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 .logo {
     font-family: Georgia, serif;
 
@@ -225,6 +277,10 @@ h1 {
     letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 .ajuda {
     position: fixed;
 
@@ -246,6 +302,7 @@ h1 {
     font-size: 18px;
 
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+<<<<<<< HEAD
 }
 
 /* =========================
@@ -324,4 +381,6 @@ h1 {
     font-size: 8px;
     letter-spacing: 1px;
     text-align: center;
+=======
+>>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
 }
