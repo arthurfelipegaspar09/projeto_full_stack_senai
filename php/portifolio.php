@@ -288,14 +288,14 @@ $projetos = carregarProjetos();
                 </ul>
 
 
-<<<<<<< HEAD
+
                 
                 <div class="footer-social">
                 <a href="https://www.instagram.com/"> <img src="../imagens/icones-pg-ctt/instagram.png" alt="Instagram"> </a>
                 <a href="https://br.linkedin.com/"> <img src="../imagens/icones-pg-ctt/linkedin.png" alt="linkedin"></a>
                 <a href="https://github.com/"> <img src="../imagens/icones-pg-ctt/github.png" alt="GitHub"></a>
             </div>
-=======
+
                 <!-- REDES SOCIAIS -->
                 <div class="footer-social">
 
@@ -322,7 +322,7 @@ $projetos = carregarProjetos();
 
                 </div>
 
->>>>>>> 3a0b914164083130d4dc85f6ed1cfa87b4f1a30a
+
             </div>
 
 
